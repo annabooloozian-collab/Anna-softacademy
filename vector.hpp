@@ -169,8 +169,8 @@ namespace softacademy {
         size_type m_capacity;
 
         void grow_if_needed() {
+            size_type new_cap;
             if (m_size == m_capacity) {
-                size_type new_cap;
                 if (m_capacity != 0)
                     new_cap = m_capacity * 2;
                 else
