@@ -28,9 +28,6 @@ namespace softacademy {
     } // namespace detail
 
     template <typename T>
-    class WeakPtr;
-
-    template <typename T>
     class SharedPtr {
     public:
         using element_type = T;
