@@ -69,9 +69,7 @@ namespace softacademy {
         }
 
         ~SharedPtr() {
-            dec_strong();
-            m_ptr = nullptr;
-            m_control = nullptr;
+            reset();
         }
 
         T* get() const noexcept {
