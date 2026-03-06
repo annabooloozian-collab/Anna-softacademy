@@ -6,7 +6,7 @@
 #include <iostream>
 #include <cmath>
 
-const double PI = 3.14159265358979323846;
+const double PI = 3.1415926535897932384;
 
 
 namespace softacademy {
@@ -102,5 +102,6 @@ namespace softacademy {
     }; 
 
 } // namespace softacademy
+
 
 #endif 
